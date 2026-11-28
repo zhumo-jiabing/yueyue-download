@@ -5,7 +5,7 @@
 <h1 align="center">玥玥 · Yueyue Companion — 官方下载</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.3.0--beta.8-E0A63C?style=flat-square" alt="0.3.0-beta.8">
+  <img src="https://img.shields.io/badge/version-0.3.0--beta.9-E0A63C?style=flat-square" alt="0.3.0-beta.9">
   <img src="https://img.shields.io/badge/platform-Windows-23211E?style=flat-square" alt="Windows">
   <img src="https://img.shields.io/badge/engine-Electron%20%2B%20Live2D-23211E?style=flat-square" alt="Electron + Live2D">
 </p>
@@ -26,15 +26,15 @@
 
 ## 软件介绍
 
-玥玥是一个**住在 Windows 电脑里的 AI 同行者**：双脑对话（思考脑定调、说话嘴流式）、本地记忆（IndexedDB 白盒分层）、本地 TTS 语音、Live2D 桌宠与立绘视频情绪层，外加一个不惩罚失败的小游戏「守夜」。
-对话与记忆**默认留在本机**；她不是伴侣、不是心理治疗师、不是情感垃圾桶，也不假装真人。
+玥玥是一个**住在 Windows 电脑里的 AI 同行者**：双脑对话（思考脑定调、说话嘴流式）、本地记忆（IndexedDB 白盒分层）、本地 TTS 语音、透明 Q版桌宠与立绘视频情绪层，外加一个不惩罚失败的小游戏「守夜」。
+对话与记忆**默认存在本机**；发消息时本轮对话与少量记忆会发送给你自己配置的模型服务商，整库不上传；她不是伴侣、不是心理治疗师、不是情感垃圾桶，也不假装真人。
 
 | 能力 | 一句话 |
 |---|---|
 | 双脑对话 | 思考脑定调、说话嘴流式；反傲慢铁律：不分析你、不替你总结、不说「会好的」 |
 | 本地记忆 | 她记得你们说过什么；排序与注入上限白盒可查，整库永不出本机 |
 | 本地语音 | Qwen3-TTS / GPT-SoVITS / IndexTTS / Kokoro 多引擎，语音包另装 |
-| 会动的她 | Live2D 桌宠 + 立绘视频情绪层，会看你会眨眼 |
+| 会动的她 | 透明 Q版桌宠 + 立绘视频情绪层，会看你会眨眼 |
 | 守夜 · 塔防 | 摆灯守主灯；灭就灭了，她还在这儿；没有排行榜/抽卡/「再来一次」 |
 | 凉亭哲学 | 允许无聊、允许沉默、允许不说；存在本身就是最大的意义 |
 
@@ -48,12 +48,14 @@
 
 更多实机截图（记忆窗 / 桌宠 / 守夜结算）见[宣传页](https://magnificent-gaufre-629323.netlify.app/)。
 
-## 下载（Windows · 0.3.0-beta.8）
+完整隐私政策与用户协议在应用内首次启动展示。
+
+## 下载（Windows · 0.3.0-beta.9）
 
 | 件 | 链接 | 校验 |
 |---|---|---|
-| 主程序安装包 | [Yueyue-Setup-0.3.0-beta.8.exe](https://github.com/zhumo-jiabing/yueyue-download/releases/download/v0.3.0-beta.8/Yueyue-Setup-0.3.0-beta.8.exe) | 249,332,436 B · sha256 前16 `28773942558ada01` |
-| 发布页 / 更新日志 | [v0.3.0-beta.8](https://github.com/zhumo-jiabing/yueyue-download/releases/tag/v0.3.0-beta.8) | 公开直链，无需登录 |
+| 主程序安装包 | [Yueyue-Setup-0.3.0-beta.9.exe](https://github.com/zhumo-jiabing/yueyue-download/releases/download/v0.3.0-beta.9/Yueyue-Setup-0.3.0-beta.9.exe) | 248,728,083 B · sha256 前16 `94B7D43A484DE2C0` |
+| 发布页 / 更新日志 | [v0.3.0-beta.9](https://github.com/zhumo-jiabing/yueyue-download/releases/tag/v0.3.0-beta.9) | 公开直链，无需登录 |
 | 语音包（让她出声） | QQ 群文件 / 网盘（见群公告） | GPU 1.7B 约 6 GB；超 GitHub 单附件 2 GB 上限故不挂 GitHub |
 
 - 主程序**默认不含语音**：装完会打字、不出声；装语音包后设置里「语音朗读」自己亮。
@@ -63,16 +65,18 @@
 > 内测版 · 本地单机桌面工具 · 法律评估中。语音与立绘含 AI 生成内容。不满 18 岁不适用。
 > 危机时本软件不会自动通知任何第三方；紧急帮助请拨打 12356 / 120 / 110。
 
-## 0.3.0-beta.8 更新了什么
+## 0.3.0-beta.9 更新了什么
 
-- 思考脑降级不再静默：哨兵全重试失败时留痕 + 承接上一轮风险等级 + 界面一次性诚实提示（安全门这轮没评估）。
-- 隐私披露⑨补全：关系阶段 / 相识天数 / 总对话轮数 / 阶段引导，如实写明每轮随记忆带出。
-- 守夜：开局一句引导 + 推荐落点；波间「补灯芯 / 加固主灯」抉择；漏过软反馈不红闪。
-- 宣传页重设计：6 张软件内实机截图 + 下载区真实直链 + 规格表 + 诚实路线图。
+- **透明 Q 版桌宠**：去掉白底卡片，Q 版直接浮在桌面；能拖、能展开、双击开聊天、说话弹跳。
+- **打游戏自动收起**：识别到游戏前台就隐藏，离开后自动回来；托盘和 `Ctrl+Alt+P` 可手动显示/隐藏。
+- **夜间主题提亮**：保留青金配色，抬黑位；白天主题不变。
+- **版本号**：`0.3.0-beta.9`。
+
+**已知问题**：Q 图仍有原图白色描边/靴下白点；无真眨眼/口型；只识别 17 款具名游戏；安装包未签名。
 
 ## 反馈
 
 QQ 群 **1002686604**（404号玥玥小窝）· [宣传页](https://magnificent-gaufre-629323.netlify.app/) · [打赏页](https://magnificent-gaufre-629323.netlify.app/support.html)（打赏不解锁任何功能）。
-外围引擎开源（AGPL-3.0）见[开源仓库](https://github.com/zhumo-jiabing/yueyue-companion-yueyuetongxingzhe)；核心人格 / 双脑 / 记忆 / 合规文案闭源专有。
+外围引擎开源（AGPL-3.0）见[开源仓库](https://github.com/zhumo-jiabing/yueyue-companion-yueyuetongxingzhe)；核心人格 / 双脑 / 记忆 / 合规文案闭源专有。更新日志见 [CHANGELOG.md](CHANGELOG.md)。
 
 <p align="center"><sub>纸的颜色，不用屏幕的颜色。 · 存在本身就是最大的意义。</sub></p>
