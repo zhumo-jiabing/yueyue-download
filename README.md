@@ -27,8 +27,8 @@
 ## ⬇ 直接下载（Windows 64 位）
 
 **主程序安装包：** [Yueyue-Setup-0.3.0-beta.10.exe](https://github.com/zhumo-jiabing/yueyue-download/releases/latest/download/Yueyue-Setup-0.3.0-beta.10.exe)  
-**大小：** 248,751,237 B  
-**SHA-256：** `14ABE613A3F82E153DA65DA441B6CE042CD2A6F9EF55E710BE1819AC64BBBA69`  
+**大小：** 248,723,691 B  
+**SHA-256：** `4A05811A336E02C5DF6A6FD1A9AE38F0DBCDB8D6BAF5B17420AC0C0E81170395`  
 **安装说明：** [INSTALL-beta10.txt](https://github.com/zhumo-jiabing/yueyue-download/releases/latest/download/INSTALL-beta10.txt)
 
 三步安装：①双击安装包；②SmartScreen 选「更多信息 → 仍要运行」（未签名）；③打开「玥玥」，第一次跟着五步走。
@@ -63,7 +63,7 @@
 
 | 件 | 链接 | 校验 |
 |---|---|---|
-| 主程序安装包 | [Yueyue-Setup-0.3.0-beta.10.exe](https://github.com/zhumo-jiabing/yueyue-download/releases/download/v0.3.0-beta.10/Yueyue-Setup-0.3.0-beta.10.exe) | 248,751,237 B · sha256 前16 `14ABE613A3F82E15` |
+| 主程序安装包 | [Yueyue-Setup-0.3.0-beta.10.exe](https://github.com/zhumo-jiabing/yueyue-download/releases/download/v0.3.0-beta.10/Yueyue-Setup-0.3.0-beta.10.exe) | 248,723,691 B · sha256 前16 `4A05811A336E02C5` |
 | 发布页 / 更新日志 | [v0.3.0-beta.10](https://github.com/zhumo-jiabing/yueyue-download/releases/tag/v0.3.0-beta.10) | 公开直链，无需登录 |
 | 语音包（让她出声） | QQ 群文件 / 网盘（见群公告） | GPU 1.7B 约 6 GB；超 GitHub 单附件 2 GB 上限故不挂 GitHub |
 
